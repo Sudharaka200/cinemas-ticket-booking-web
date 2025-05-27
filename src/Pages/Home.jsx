@@ -8,22 +8,22 @@ function Home() {
         <div
             // Navbar
             style={{
-                display: 'flex',
+                display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0 20px',
             }}>
             <img src={logoImg} alt="" />
-            <div style={{
-                display: 'flex',
-                textAlign:'center'
-            }}>
-                <MenuLinks linkName="Home" url="Home" />
-                <MenuLinks linkName="Movies" url="Home" />
-                <MenuLinks linkName="Contact" url="Home" />
-                <MenuLinks linkName="Home" url="Home" />
-                <MenuLinks linkName="Home" url="Home" />
-            </div>
+            <div style={{display:'flex', textAlign:'end'}}>
+                <div style={{
+                    display: 'flex',
+                    textAlign: 'center'
+                }}>
+                    <MenuLinks linkName="Home" url="Home" />
+                    <MenuLinks linkName="Movies" url="Home" />
+                    <MenuLinks linkName="Contact" url="Home" />
+                </div>
 
-            <Button>Login</Button>
-            <Button>Register</Button>
+                <Button>Login</Button>
+                <Button>Register</Button>
+            </div>
         </div>
     )
 }
