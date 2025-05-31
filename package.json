@@ -15,7 +15,9 @@
     "@mui/icons-material": "^7.1.0",
     "@mui/material": "^7.1.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-router": "^7.6.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
