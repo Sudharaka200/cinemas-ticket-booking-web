@@ -4,6 +4,7 @@ import logoImg from '../assets/duaAsset 1logo 1.png'
 import { Button } from '@mui/material'
 import Carosal from '../Components/carosal'
 import MovieCards from '../Components/movieCards'
+import Footer from '../Components/Footer'
 
 function Home() {
     return (
@@ -31,10 +32,11 @@ function Home() {
             <div>
                 <Carosal />
             </div>
-            <div>
-                <h1>Now Showing</h1>
+            <div style={{padding:'40px', alignItems:'center'}} >
+                <h1 style={{textAlign:'center'}}>Now Showing</h1>
                 <MovieCards />
             </div>
+            <Footer />
         </>
     )
 }

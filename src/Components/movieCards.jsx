@@ -23,7 +23,17 @@ const MovieSharp = [
     title: "The Dark Knight",
     description: "A gritty take on the Batman saga.",
     image: "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
-  }
+  },
+  {
+    title: "Interstellar",
+    description: "A science fiction epic exploring space and time.",
+    image: "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+  },
+  {
+    title: "Interstellar",
+    description: "A science fiction epic exploring space and time.",
+    image: "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+  },
 ];
 
 export default function MovieCards() {
