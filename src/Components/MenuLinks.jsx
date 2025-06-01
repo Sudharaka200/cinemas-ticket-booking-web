@@ -5,9 +5,9 @@ function MenuLinks(props) {
   return (
     <div>
         <div style={{
-            display:'flex', textDecoration:'none', padding:'20px',backgroundColor:'none'
+            display:'flex', textDecoration:'none', padding:'20px',backgroundColor:'none', color:'#FFF'
         }}>
-            <a href={props.url} className='link' style={{textAlign:'end', textDecoration: 'none'}}>{props.linkName}</a>
+            <a href={props.url} className='link' style={{textAlign:'center', textDecoration: 'none', color:'#FFFF'}} >{props.linkName}</a>
         </div>
     </div>
   )

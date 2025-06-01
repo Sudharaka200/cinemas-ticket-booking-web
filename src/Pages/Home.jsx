@@ -14,19 +14,22 @@ function Home() {
                 style={{
                     display: 'flex', justifyContent: 'space-between', padding: '0 20px', position: 'absolute', zIndex: '10'
                 }}>
-                <img src={logoImg} alt="" />
+                <a href="/">
+                    <img src={logoImg} alt="" />
+                </a>
                 <div style={{ display: 'flex', textAlign: 'center' }}>
                     <div style={{
                         display: 'flex',
                         textAlign: 'end'
                     }}>
                         <MenuLinks linkName="Home" url="/" />
-                        <MenuLinks linkName="Movies" url="Home" />
-                        <MenuLinks linkName="Contact" url="Home" />
+                        <MenuLinks linkName="Movies" url="/movie" />
+                        <MenuLinks linkName="Contact" url="/contact" />
                     </div>
 
-                    <Button>Login</Button>
-                    <Button>Register</Button>
+                    <a href="/login">
+                        <Button style={{backgroundColor:'red', color:'#FFF'}}>Login</Button>
+                    </a>
                 </div>
             </div>
             <div>
