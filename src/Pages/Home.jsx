@@ -11,28 +11,33 @@ function Home() {
         <>
             <div>
                 <div
-                    // Navbar
                     style={{
-                        display: 'flex', justifyContent: 'space-between', padding: '0 20px', position: 'absolute', zIndex: '10'
-                    }}>
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        padding: '0 20px',
+                        position: 'absolute',
+                        zIndex: '10',
+                        width: '95%'
+                    }}
+                >
                     <a href="/">
-                        <img src={logoImg} alt="" />
+                        <img src={logoImg} alt="Logo" />
                     </a>
-                    <div style={{ display: 'flex', textAlign: 'center' }}>
-                        <div style={{
-                            display: 'flex',
-                            textAlign: 'end'
-                        }}>
+
+                    <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
+                        <div style={{ display: 'flex', gap: '20px' }}>
                             <MenuLinks linkName="Home" url="/" />
                             <MenuLinks linkName="Movies" url="/movie" />
                             <MenuLinks linkName="Contact" url="/contact" />
                         </div>
 
-                        <a href="/login">
-                            <Button style={{ backgroundColor: '#09B54E', color: '#FFF', marginTop: '10px' }}>Login</Button>
+                        <a href="/login" style={{ marginLeft: 'auto' }}>
+                            <Button style={{ backgroundColor: '#09B54E', color: '#FFF' }}>Login</Button>
                         </a>
                     </div>
                 </div>
+
+
                 <div>
                     <Carosal />
                 </div>
