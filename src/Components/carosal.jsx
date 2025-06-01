@@ -43,6 +43,7 @@ function Item({ item }) {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 height: '600px',
+                width:'100%',
                 color: '#fff',
                 display: 'flex',
                 flexDirection: 'column',
@@ -55,16 +56,15 @@ function Item({ item }) {
         >
             <Box
                 sx={{
-                    backgroundColor: 'rgba(0, 0, 0, 0.5)',
                     padding: 3,
                     borderRadius: 2,
                     maxWidth: '70%',
                 }}
             >
-                <Typography variant="h4" gutterBottom>{item.name}</Typography>
+                <Typography variant="h3" gutterBottom style={{fontWeight:'bold'}}>{item.name}</Typography>
                 <Typography variant="body1" paragraph>{item.description}</Typography>
-                <Button variant="contained" color="primary">
-                    Check it out!
+                <Button variant="contained" style={{backgroundColor: '#09B54E'}}>
+                    Buy Ticket
                 </Button>
             </Box>
         </Paper>
