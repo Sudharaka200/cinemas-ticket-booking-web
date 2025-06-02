@@ -37,7 +37,7 @@ export default function Theater() {
                         </div>
 
                         <a href="/login" style={{ marginLeft: 'auto' }}>
-                            <Button style={{ backgroundColor: '#09B54E', color:'#FFF' }}>Login</Button>
+                            <Button style={{ backgroundColor: '#09B54E', color: '#FFF' }}>Login</Button>
                         </a>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ export default function Theater() {
                     <Box sx={{ flexGrow: 1 }}>
                         <Grid container spacing={2}>
                             <Grid size={{ xs: 6, md: 8 }}>
-                                <div style={{ padding:'10px 100px'}}>
+                                <div style={{ padding: '10px 100px' }}>
                                     <h1>Theater</h1>
                                     <div>
                                         <ToggleButtonC />
@@ -58,19 +58,25 @@ export default function Theater() {
                                     <div>
                                         <ToggleButtonTime />
                                     </div>
-                                    <div>
-                                        <h1>IOI Putrajaye</h1>
-                                        <h3>28 October 2023</h3>
-                                        <h3>15:40</h3>
-                                        <p>*Seat selection can be done after this</p>
-                                        <a href="/Seat" style={{ marginLeft: 'auto' }}>
-                                            <Button style={{ backgroundColor: '#09B54E', color: '#FFF' }}>Proceed</Button>
-                                        </a>
+                                    <div style={{ border: '2px solid #09B54E',  borderRadius:'10px', marginTop:'20px' }}>
+                                        <div style={{color:'#FFF', padding:'20px'}}>
+                                            <h1>IOI Putrajaye</h1>
+                                            <h3>28 October 2023</h3>
+                                            <h3>15:40</h3>
+                                            <p>*Seat selection can be done after this</p>
+                                            <a href="/Seat" style={{ marginLeft: 'auto' }}>
+                                                <Button style={{ backgroundColor: '#09B54E', color: '#FFF' }}>Proceed</Button>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </Grid>
                             <Grid size={{ xs: 6, md: 4 }}>
                                 <img src={MovieImg} alt="" />
+                                <div style={{color:'#FFF'}}>
+                                    <h1>SPIDERMAN ACROSS THE SPIDERVERSE</h1>
+                                    <p>Movie description here...</p>
+                                </div>
                             </Grid>
                         </Grid>
                     </Box>
