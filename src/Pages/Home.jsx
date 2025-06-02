@@ -5,11 +5,12 @@ import { Button } from '@mui/material'
 import Carosal from '../Components/carosal'
 import MovieCards from '../Components/movieCards'
 import Footer from '../Components/Footer'
+import BackgroundImg from '../assets/back ui 1.png'
 
 function Home() {
     return (
         <>
-            <div>
+            <div style={{backgroundImage:`url(${BackgroundImg})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '100%'}}>
                 <div
                     style={{
                         display: 'flex',
